@@ -1,18 +1,20 @@
+:root {
+    --primary-text-color--: #757575;
+    --title-text-color--: #212121;
+    --accent-color--: #2196F3;
+    --primary-bg-color--: #F5F5F5;
+    --hero-bg-color--:#2F303A;
+}
+
+
 body {
    color: var(--primary-text-color--);
-   background-color: #F5F5F5;;
+   background-color:var(--primary-bg-color--);
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
    font-size: 14px;
    line-height: 1.71;
 }
-:root {
-    --primary-text-color--:#757575;
-    --title-text-color--:#212121;
-    --accent-color--:#2196F3;
-    --primary-bg-color--:#F5F5F5;
-}
-
 
 ul {
     list-style: none;
@@ -24,15 +26,11 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-}
-
-.logo:hover {
-    color: var(--accent-color--);
+    font-weight: 700;
 }
 
 h1, h2, h3 {
     color:var(--title-text-color--);
-    font-family: Roboto, sans-serif;
 }
 
 .link:hover,
@@ -45,6 +43,7 @@ h1, h2, h3 {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 /*buttons*/
 
@@ -80,13 +79,16 @@ h1, h2, h3 {
 
 /*page-header*/
 .Web {
-    color: #2196F3;
+    color: var(--accent-color--);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 
-.logo :hover,
+.Studio {
+    color: #F5F5F5;
+}
+
 .logo:focus {
     color: var(--accent-color--)
 }
@@ -102,7 +104,7 @@ h1, h2, h3 {
 }
 
 .hero {
-    background: #2F303A;
+    background: var(--hero-bg-color--);
 }
 .hero-title {
 
@@ -121,13 +123,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.we {
+.team {
     background: #F5F4FA;
 }
 
 .feature-list-title {
  
-    font-size: 14px;
     line-height: 1.14;
      
 }
@@ -144,7 +145,6 @@ h1, h2, h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color--);
 
 }
@@ -167,9 +167,15 @@ h1, h2, h3 {
 }
 
 .objects {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.86;
-    letter-spacing: 0.03em;
+    
 }
 
+.contacts {
+    color: var(--primary-text-color--);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
