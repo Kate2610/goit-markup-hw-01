@@ -2,8 +2,9 @@
     --primary-text-color--: #757575;
     --title-text-color--: #212121;
     --accent-color--: #2196F3;
-    --primary-bg-color--: #F5F5F5;
+    --primary-bg-color--: #FFFFFF;
     --hero-bg-color--:#2F303A;
+    --team-bg-color--:#F5F4FA;
 }
 
 
@@ -35,16 +36,17 @@ h1, h2, h3 {
 
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color--);
 }
 .link {
-    color: var(--title-text-color--);
+    color: var(--primary-text-color--);
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
 }
+
 /*buttons*/
 
 .button:hover,
@@ -78,6 +80,10 @@ h1, h2, h3 {
 
 
 /*page-header*/
+
+.page-header {
+    color: var(--title-text-color--);
+}
 .Web {
     color: var(--accent-color--);
     font-weight: 700;
@@ -103,11 +109,12 @@ h1, h2, h3 {
 
 }
 
+
 .hero {
     background: var(--hero-bg-color--);
 }
 .hero-title {
-
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -124,7 +131,7 @@ h1, h2, h3 {
 }
 
 .team {
-    background: #F5F4FA;
+    background: var(--team-bg-color--);
 }
 
 .feature-list-title {
@@ -142,7 +149,7 @@ h1, h2, h3 {
 }
 
 .position {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.19;
     color: var(--primary-text-color--);
@@ -150,32 +157,42 @@ h1, h2, h3 {
 }
 
 
-.text {
-    font-size: 14px;
-    line-height: 1.71;
-}
-
 .footer {
-    background: #2F303A;
+    background: var(--hero-bg-color--);
 }
 
 .projects {
+    color: var(--title-text-color--);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+   
 }
 
 .objects {
     font-size: 16px;
     line-height: 1.86;
+    text-decoration: none;
+    color: var(--primary-text-color--);
     
 }
 
 .contacts {
-    color: var(--primary-text-color--);
-    font-weight: 500;
+
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+
 }
+ .studia {
+    color: #212121;
+ }
+
+ .link-a {
+    color: #FFFFFF;
+    text-decoration: none;
+ }
