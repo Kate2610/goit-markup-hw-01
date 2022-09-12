@@ -16,24 +16,30 @@
 </head>
 
 <body>
+    
     <header class="page-header">
-        <nav>
+        <div class="container">
+        <nav class="container-nav">
             <a href="./index.html" class="logo"><span class="Web">Web</span>Studio</a>
             <ul class="site-nav">
-                <li> <a href="./index.html" class="link">Студія</a></li>
-                <li> <a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                <li> <a href="" class="link">Контакти</a></li>
+                <li class="item"> <a href="./index.html" class="link">Студія</a></li>
+                <li class="item"> <a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                <li class="item"> <a href="" class="link">Контакти</a></li>
             </ul>
-        </nav>
-        <ul class="contacts">
-            <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        
+
+        <ul class="contacts-header">
+            <li class="item"> <a href="mailto:info@devstudio.com" class="link-mail-header">info@devstudio.com</a></li>
+            <li class="item"> <a href="tel:+380961111111" class="link-phone-header">+38 096 111 11 11</a></li>
         </ul>
+     </nav>
+     </div>
     </header>
         <main>
-            <section>
-                <h1>Наші проекти</h1>
-                <ul>
+            <section class ="no-padding">
+                <div class="container">
+                <h1 class="visually-hidden no-padding">Наші проекти</h1>
+                <ul class="buttons">
                     <li><button type="button" class="button-nav">Усі</button></li>
                     <li> <button type="button" class="button-nav">Веб-сайти</button></li>
                     <li> <button type="button" class="button-nav">Додатки</button></li>
@@ -41,85 +47,109 @@
                     <li> <button type="button" class="button-nav">Маркетинг</button></li>
                 </ul>
         
-                <ul class>
-                    <li>
+                <ul class="projects-list" >
+                    <li class="projects-item" >
                         <a href="">
                         <img src="./images/imgcopy.jpg" alt="проект" width="370">
+                    <div class="border"> 
                         <h2 class="projects">Технокряк</h2>
                         <p class="objects">Веб-сайт</p>
-                        </a>
+
+                    </div>
+                    </a>
                     </li>
 
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgone.jpg" alt="проект1" width="370">
+                     <div class="border">
                         <h2 class="projects">Постер New Orlean vs Golden Star</h2>
                         <p class="objects">Дизайн</p>
+                     </div>
                         </a>
                     </li>
 
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgtwo.jpg" alt="проект2" width="370">
+                      <div class="border">
                         <h2 class="projects">Ресторан Seafood</h2>
                         <p class="objects">Додаток</p>
+                      </div>
                         </a>
                     </li>
 
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgthree.jpg" alt="проект3" width="370">
-                        <h2 class="projects">Проєкт Prime</h2>
+                    <div class="border">
+                       <h2 class="projects">Проєкт Prime</h2>
                         <p class="objects">Маркетинг</p>
+                    </div>
                         </a>
                     </li>
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgfour.jpg" alt="проект4" width="370">
+                    <div class="border">
                         <h2 class="projects">Проєкт Boxes</h2>
                         <p class="objects">Додаток</p>
-                        </a>
+                    </div>
+                   </a>
                     </li>
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgfive.jpg" alt="проект5" width="370">
+                   <div class="border">
                         <h2 class="projects">Inspiration has no Borders</h2>
                         <p class="objects">Веб-сайт</p>
+                   </div>
                         </a>
                     </li>
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgsix.jpg" alt="проект6" width="370">
+                    <div class="border">
                         <h2 class="projects">Видання Limited Edition</h2>
                         <p class="objects">Дизайн</p>
+                    </div>
                         </a>
                     </li>
-                    <li>
+                    <li  class="projects-item">
                         <a href="">
                         <img src="./images/imgseven.jpg" alt="проект7" width="370">
+                    <div class="border">
                         <h2 class="projects">Проєкт LAB</h2>
                         <p class="objects">Маркетинг</p>
+                    </div>
                         </a>
                     </li>
-                    <li>
+                    <li >
                         <a href="">
                         <img src="./images/imgeight.jpg" alt="проект8" width="370">
+                    <div class="border">
                         <h2 class="projects">Growing Business</h2>
                         <p class="objects">Додаток</p>
+                    </div>
                         </a>
                     </li>
                 </ul>
-            </section>
+                </div>
+            </section>   
         </main>
+     
          <footer class="footer">
+            <div class="container contacts-footer">
             <a href="./index.html" class="logo"><span class="Web">Web</span><span class="Studio">Studio</span></a>
             <ul class="contacts">
                 <li> <a href="https://goo.gl/maps/KUsAnu7vbG7dcw6g8" target="_blank" rel="noopener noreferrer"
                         class="link-a"> м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
-                <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li> <a href="mailto:info@devstudio.com" class="link-mail-footer">info@devstudio.com</a> </li>
+                <li> <a href="tel:+380961111111" class="link-phone-footer">+38 096 111 11 11</a></li>
             </ul>
+            </div>
          </footer>
+        </div>
 </body>
 
 </html>
