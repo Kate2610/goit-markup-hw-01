@@ -115,10 +115,7 @@ h1, h2, h3 {
 .Studio {
     color: #F5F5F5;
 }
-.logo:hover,
-.logo:focus {
-    color: var(--accent-color--)
-}
+
 
 .site-nav > .item {
     color: #212121;
@@ -174,11 +171,10 @@ h1, h2, h3 {
     color: var(--primary-bg-color--);
     margin-top: 0px;
     margin-bottom: 30px;
+    max-width: 696px;
     text-align: center;
-   
- 
-   
-   
+    margin-left: 252px;
+    
 }
 
 .advantages {
@@ -200,18 +196,25 @@ h1, h2, h3 {
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
+
 
  
 }
 
 .team {
     background: var(--team-bg-color--);
+    
   
 }
 
 .colleagues {
     display: flex;
     padding-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+   
 
 
 }
@@ -243,10 +246,9 @@ h1, h2, h3 {
 }
 
 .text {
-    margin-top: 0px;
+ 
     width: 270px;
   
-
 }
 
 .people {
@@ -277,7 +279,7 @@ h1, h2, h3 {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
+  
 
    
 }
@@ -488,4 +490,9 @@ img {
 .link-phone-header
 {
     padding: 32px 0;
+}
+
+
+.ourteam {
+    padding-top: 94px;
 }
